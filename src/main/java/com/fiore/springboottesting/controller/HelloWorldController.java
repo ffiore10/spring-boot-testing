@@ -20,7 +20,7 @@ public class HelloWorldController {
     @GetMapping("hello")
     public ResponseEntity<AuthenticationBean> basicAuth(){
         log.info("logging...");
-        return ResponseEntity.ok(new AuthenticationBean("Ciao Objectway"));
+        return ResponseEntity.ok(new AuthenticationBean("Ciao Objectway :'-)"));
     }
 
 }
